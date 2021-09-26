@@ -1,0 +1,62 @@
+.mat-button{
+    min-height:45px;
+    border-radius: 10px !important;
+    &:focus{
+        outline: unset;
+    }
+}
+.esd-btn-primary{
+    background-color: #6F4C5B;
+    color: #fff;
+    font-size: 18px;
+    line-height: 37px !important;
+    &-large{
+        background-color: #6F4C5B;
+        color: #fff;
+        font-size: 20px;
+        height: 50px;
+        min-width: 200px !important;
+        line-height: 37px !important;
+    }
+}
+.esd-btn-secondary{
+    background-color: #DEBA9D;
+    color: #fff;
+    font-size: 18px;
+    line-height: 37px !important;
+    &-large{
+        background-color: #DEBA9D;
+        color: #fff;
+        font-size: 20px;
+        height: 50px;
+        min-width: 200px !important;
+        line-height: 37px !important;
+    }
+}
+.esd-card-button{
+    min-height: 150px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    transition: 0.3s;
+    &:hover{
+        background-color: #fff;
+        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    }
+    i{
+        font-size: 36px;
+        margin: 5px 0px 20px 0px;
+    }
+}
+.esd-btn-icon{
+    &-primary{
+        min-height: 35px !important;
+        min-width: 55px !important;
+        color: #1A73E8;
+        border:1px solid #1A73E8 !important;
+    }
+    &-secondary{
+        min-height: 35px !important;
+        min-width: 55px !important;
+        color: #DB2763;
+        border:1px solid #DB2763 !important;
+    }
+}

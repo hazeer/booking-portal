@@ -1,0 +1,39 @@
+.esd-glass-container{
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    background-color: #ffffff87;
+    backdrop-filter: blur(10px);
+}
+.secondary-container{
+    padding: 20px;
+    background-color: #F0F2F5;
+    border-radius: 10px;
+}
+.carousel{
+    max-height: 750px;
+    margin-bottom: 30px;
+    img{
+        max-height: 740px;
+    }
+}
+.header{
+    margin-bottom: 50px;
+    img{
+        width: 400px;
+    }
+}
+.mat-tab-group{
+    .mat-tab-body-content{
+        background-color: #ffffff;
+        border-radius: 10px;
+        padding: 20px;
+    }
+}
+.item-row{
+    background-color: #fff;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    padding: 15px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}

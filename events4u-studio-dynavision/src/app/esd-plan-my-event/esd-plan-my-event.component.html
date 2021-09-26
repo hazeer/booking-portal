@@ -1,0 +1,62 @@
+<div class="esd-planmyevent">
+    <div class="container">
+        <div class="esd-glass-container">
+            <div class="row header">
+                <div class="col-md-6">
+                    <img src="../../assets/images/logo.png">
+                </div>
+                <div class="col-md-6 d-flex align-items-center justify-content-end">
+                    <a href="#" class="mr-3">My Account</a>
+                    <a href="#" class="">Logout</a>
+                </div>
+            </div>
+            <div class="section-title">
+                <i class="material-icons mr-2">event</i>
+                <h3>Plan My Event</h3>
+            </div>
+            <div class="secondary-container">
+                <mat-stepper [linear]="isLinear" #stepper>
+                    <mat-step [stepControl]="firstFormGroup">
+                      <form [formGroup]="firstFormGroup">
+                        <ng-template matStepLabel>Select Date</ng-template>
+                        <mat-card>
+                            <mat-calendar [selected]="selectedDate" (selectedChange)="onSelect($event)"></mat-calendar>
+                        </mat-card>
+                        <div>
+                          <button mat-button matStepperNext>Next</button>
+                        </div>
+                      </form>
+                    </mat-step>
+                    <mat-step [stepControl]="secondFormGroup" label="Event Category">
+                      <form [formGroup]="secondFormGroup">
+                        <mat-form-field appearance="fill">
+                          <mat-label>Address</mat-label>
+                          <input matInput formControlName="secondCtrl" placeholder="Ex. 1 Main St, New York, NY"
+                                 required>
+                        </mat-form-field>
+                        <div>
+                          <button mat-button matStepperPrevious>Back</button>
+                          <button mat-button matStepperNext>Next</button>
+                        </div>
+                      </form>
+                    </mat-step>
+                    <mat-step label="Event Package">
+                      <p>You are now done.</p>
+                      <div>
+                        <button mat-button matStepperPrevious>Back</button>
+                        <button mat-button (click)="stepper.reset()">Reset</button>
+                      </div>
+                    </mat-step>
+                    <mat-step label="Send Request">
+                        <p>You are now done.</p>
+                        <div>
+                          <button mat-button matStepperPrevious>Back</button>
+                          <button mat-button (click)="stepper.reset()">Reset</button>
+                        </div>
+                      </mat-step>
+                  </mat-stepper>
+                               
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,27 @@
+h1, h2, h3, h4, h5, h6{
+    color: #656565;
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: 'Ubuntu', sans-serif;
+    src: url('../../fonts/Ubuntu-Bold.ttf'); /* IE9 Compat Modes */
+    src: url('../../fonts/Ubuntu-Bold.ttf') format('woff2'),
+    url('../../fonts/Ubuntu-Bold.ttf') format('woff'),
+    url('../../fonts/Ubuntu-Bold.ttf')  format('truetype'); /* Safari, Android, iOS */
+    font-weight: 700;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Ubuntu', sans-serif;
+    src: url('../../fonts/Ubuntu-Regular.ttf'); /* IE9 Compat Modes */
+    src: url('../../fonts/Ubuntu-Regular.ttf') format('woff2'),
+    url('../../fonts/Ubuntu-Regular.ttf') format('woff'),
+    url('../../fonts/Ubuntu-Regular.ttf')  format('truetype'); /* Safari, Android, iOS */
+    font-weight: 400;
+    font-style: normal;
+}
+
+.mat-button, .mat-tab-label, .mat-tab-group{
+    font-family: 'Ubuntu', sans-serif !important; 
+}

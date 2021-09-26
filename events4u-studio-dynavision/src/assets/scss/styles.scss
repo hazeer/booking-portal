@@ -1,0 +1,11 @@
+@import './base/layout';
+@import './base/common';
+@import './base/buttons';
+@import "./abstracts/typography";
+@import './components/landing';
+@import './components/login';
+@import './components/home';
+@import './components/dashboard';
+@import './components/planmyevent';
+html, body { height: 100%; }
+body { margin: 0; font-family: 'Ubuntu', sans-serif !important; }

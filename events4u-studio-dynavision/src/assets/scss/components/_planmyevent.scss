@@ -1,0 +1,17 @@
+.esd-planmyevent{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    .section-title{
+        display: flex;
+        align-items: center;
+        margin-bottom: 20px;
+        h3{
+            margin-bottom: 0;
+        }
+        i{
+            font-size: 45px;
+            color: #31E981;
+        }
+    }
+}
